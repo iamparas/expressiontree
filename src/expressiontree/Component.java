@@ -13,7 +13,7 @@ public abstract class Component {
 		return null;
 	}
 	
-	void accept(){
+	void accept(Visitor visitor){
 		throw new UnsupportedOperationException();         
 	}
 }

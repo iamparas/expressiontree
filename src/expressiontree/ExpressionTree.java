@@ -58,10 +58,7 @@ public class ExpressionTree {
         root.accept(visitor);
     }
 
-    /** 
-     * Returns an @a Iterator that supports the requested
-     * traveralOrder.
-     */
+    
     public Iterator<ExpressionTree> makeIterator
         (String traversalOrderRequest) {
         /* 
